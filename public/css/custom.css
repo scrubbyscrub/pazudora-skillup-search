@@ -1,0 +1,36 @@
+/*general*/
+html, body {
+	background: #FBFCFE;
+	background: -webkit-linear-gradient(to left, #FBFCFE , #D4EBF2);
+	background: linear-gradient(to bottom, #FBFCFE , #D4EBF2);
+}
+textarea {
+	max-width: 20em;
+	max-height: 2.5em;
+	overflow: hidden;
+	resize: none;
+}
+/*classes*/
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.form-control {
+	margin: 1em;
+}
+.list-group-item {
+	margin-top: 1.5em;
+}
+.list-group-item img {
+	padding: 1em;
+	width: 5em;
+}
+/*ids*/
+#top {
+	margin-top: 3em;
+}
+#results {
+	margin-top: 1.5em;
+}
